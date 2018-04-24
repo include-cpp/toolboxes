@@ -1,0 +1,31 @@
+sudo: required
+
+services:
+  - docker
+
+before_install:
+  - mkdir -p output/conf-toolbox output/meetup-toolbox
+  - docker pull asciidoctor/docker-asciidoctor
+
+script:
+  - docker run -v $TRAVIS_BUILD_DIR:/documents --name conf-to-pdf asciidoctor/docker-asciidoctor asciidoctor-pdf -D /documents/output/conf-toolbox conf_*.adoc
+  - docker run -v $TRAVIS_BUILD_DIR:/documents --name meetup-to-pdf asciidoctor/docker-asciidoctor asciidoctor-pdf -D /documents/output/meetup-toolbox meetup_*.adoc
+  - cd $TRAVIS_BUILD_DIR/output
+  - for f in conf-toolbox/*; do mv "$f" "`echo $f | sed s/conf_//`"; done
+  - zip -r conf.zip conf-toolbox
+  - for f in meetup-toolbox/*; do mv "$f" "`echo $f | sed s/meetup_//`"; done
+  - zip -r meetup.zip meetup-toolbox
+
+after_error:
+  - docker logs asciidoc-to-pdf
+
+after_failure:
+  - docker logs asciidoc-to-pdf
+
+deploy:
+  provider: releases
+  api_key: $GITHUB_TOKEN
+  file:
+    - $TRAVIS_BUILD_DIR/output/conf.zip
+    - $TRAVIS_BUILD_DIR/output/meetup.zip
+  skip_cleanup: true
