@@ -1,0 +1,7 @@
+#Choosing a Code of Conduct
+
+C++ Conferences usually go with either the https://github.com/brycelelbach/cpp_code_of_conduct[C++ Code of Conduct] or the https://berlincodeofconduct.org/[Berlin Code of Conduct].
+
+The *Berlin Code of Conduct* emphasizes more inclusion, while the *C++ Code of Conduct* focuses more on anti-harassment. Both those Code of Conduct are equally trusted by the community and will send a strong signal to attendees from underrepresented group that you intend to protect them in case of problem.
+
+After choosing your Code of Conduct, keep in mind that you need to actually enforce it if the need arises. Make sure all organizers of your event are aware of it and in line with its interpretation.
