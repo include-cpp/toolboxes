@@ -1,0 +1,44 @@
+# Organization Checklist
+
+## Overall Meetup Organization
+
+- [ ] The Code of Conduct for the meetup is written and attendees are aware of its existence before coming.
+
+[small]#Attendees who had first or second-hand problems during meetups might avoid meetups with no CoC.#
+
+- [ ] There are at least two organisers.
+
+[small]#Being two allows you to split the load and be more accountable.#
+
+
+## Meetup In a New Space
+
+- [ ] If there is food served, make sure with the provider that you have options for those with dietary requirements
+
+[small]#There can be philosophical, religious or health reasons for attendees to not eat meat. Their lunch should be correct nonetheless.#
+
+- [ ] Check with the provider whether the new space is accessible without using stairs or narrow doors and give the information before-hand to attendees.
+
+[small]#In doubt, reduced mobility attendees might avoid your meetup even though it is accessible. Or on the contrary, attend and be blocked.#
+
+- [ ] Either there is no alcohol or attendees are aware of it in advance.
+
+[small]#Some people are not comfortable attending events with free alcohol.#
+
+## Session Content
+
+- [ ] Talks are diverse and suitable for different experience levels.
+
+[small]#The meetup should be accessible to all experience level and allow everybody to learn.#
+
+- [ ] You have space for people to socialise and network before and after any talks you put on.
+
+[small]#The meetup should be a way for everybody to learn and socialize.#
+
+## Additional ideas
+
+* If you don't get enough talk submissions, consider a social meetup with a just-for-fun quiz
+
+* If your meetup is small enough, you can get everyone who is comfortable with it to give a short introduction to who they are and what they do
+
+* Try to gently encourage people who have never spoken at tech events to give talks, and offer to help them out. Small meetups are a great way to lead up to conferences.
