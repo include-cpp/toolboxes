@@ -37,6 +37,10 @@
 
 [small]#Wheelchair users should be able to attend all conferences.#
 
+- [ ] There is a ramp to access every stage where a person in a wheelchair might talk.
+
+[small]#Wheelchair using speakers need to be able to access the stage.#
+
 - [ ] There are gender neutral bathrooms.
 
 [small]#Trans and gender non-conforming attendees should not have to choose gendered toilets.#
